@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(Test LANGUAGES CXX)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Concurrent)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()
 
@@ -19,7 +19,6 @@ target_link_libraries(Test
     PRIVATE
         Qt6::Core
         Qt6::Widgets
-        Qt6::Concurrent
 )
 
 install(TARGETS Test
