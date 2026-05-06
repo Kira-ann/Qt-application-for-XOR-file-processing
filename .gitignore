@@ -1,0 +1,10 @@
+build/
+*.user
+*.o
+*.exe
+
+*.dat
+out_course.dat
+
+# Настройки Qt Creator
+.qtcreator/
